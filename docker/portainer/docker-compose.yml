@@ -1,0 +1,24 @@
+version: '3'
+
+volumes:
+  portainer_data:
+    external: true
+
+networks:
+  reverse-proxy:
+    external: true
+
+services:
+  portainer:
+    image: portainer/portainer-ce:latest
+    container_name: portainer
+    hostname: portainer
+    restart: unless-stopped
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - portainer_data:/data
+    networks:
+      - reverse-proxy
+    ports:
+      - 9443:9443
