@@ -20,4 +20,6 @@ services:
     networks:
       - reverse-proxy
     ports:
-      - 8443:443
+      - 80:80
+      - 443:443
+      - 81:81
