@@ -1,0 +1,23 @@
+volumes:
+  nginxpm_data:
+    external: true
+  nginxpm_letsencrypt:
+    external: true
+
+networks:
+  reverse-proxy:
+    external: true
+
+services:
+  nginxpm:
+    image: jc21/nginx-proxy-manager:latest
+    container_name: nginxpm
+    hostname: nginxpm
+    restart: unless-stopped
+    volumes:
+      - nginxpm_data:/data
+      - nginxpm_letsencrypt:/etc/letsencrypt
+    networks:
+      - reverse-proxy
+    ports:
+      - 8443:443
