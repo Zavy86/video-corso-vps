@@ -8,7 +8,7 @@ networks:
 
 services:
   gotify:
-    image: gotify/server-amd64:latest
+    image: gotify/server:latest
     container_name: gotify
     hostname: gotify
     restart: unless-stopped
