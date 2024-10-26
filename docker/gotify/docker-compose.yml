@@ -1,0 +1,18 @@
+volumes:
+  gotify_data:
+    external: true
+
+networks:
+  reverse-proxy:
+    external: true
+
+services:
+  gotify:
+    image: gotify/server-amd64:latest
+    container_name: gotify
+    hostname: gotify
+    restart: unless-stopped
+    volumes:
+      - gotify_data:/app/data
+    networks:
+      - reverse-proxy

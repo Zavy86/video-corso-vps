@@ -20,3 +20,6 @@ nginxpm:
 	docker volume create nginxpm_data
 	docker volume create nginxpm_letsencrypt
 	$(call docker_rebuild,"nginxpm","docker/nginxpm")
+# Gotify
+	docker volume create gotify_data
+	$(call docker_rebuild,"gotify","docker/gotify")
