@@ -15,3 +15,7 @@ Elenco dei video pubblicati:
 ### 02 | VPS DOCKER Portainer, NGINX Proxy Manager, ClouDNS
 [![vps-docker](https://img.youtube.com/vi/ulkpxPh_pRE/mqdefault.jpg)](https://youtu.be/x2nVq9RbG54 "VPS DOCKER Portainer, NGINX Proxy Manager, ClouDNS")  
 [https://youtu.be/x2nVq9RbG54](https://youtu.be/x2nVq9RbG54)
+
+### 03 | GOTIFY notifiche PUSH sulla tua VPS self hosted!
+[![vps-gotify](https://img.youtube.com/vi/0NYyYvoxkXE/mqdefault.jpg)](https://youtu.be/0NYyYvoxkXE "GOTIFY notifiche PUSH sulla tua VPS self hosted!")  
+[https://youtu.be/0NYyYvoxkXE](https://youtu.be/0NYyYvoxkXE)
