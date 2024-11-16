@@ -25,4 +25,5 @@ gotify:
 	docker volume create gotify_data
 	$(call docker_rebuild,"gotify","docker/gotify")
 # WatchTower
+watchtower:
 	$(call docker_rebuild,"watchtower","docker/watchtower")
