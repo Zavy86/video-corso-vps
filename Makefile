@@ -24,3 +24,5 @@ nginxpm:
 gotify:
 	docker volume create gotify_data
 	$(call docker_rebuild,"gotify","docker/gotify")
+# WatchTower
+	$(call docker_rebuild,"watchtower","docker/watchtower")
