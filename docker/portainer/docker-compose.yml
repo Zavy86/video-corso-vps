@@ -12,6 +12,8 @@ services:
     container_name: portainer
     hostname: portainer
     restart: unless-stopped
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
     volumes:
       - /etc/localtime:/etc/localtime:ro
       - /var/run/docker.sock:/var/run/docker.sock:ro
