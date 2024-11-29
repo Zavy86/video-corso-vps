@@ -16,6 +16,10 @@ Elenco dei video pubblicati:
 [![vps-docker](https://img.youtube.com/vi/ulkpxPh_pRE/mqdefault.jpg)](https://youtu.be/x2nVq9RbG54 "VPS DOCKER Portainer, NGINX Proxy Manager, ClouDNS")  
 [https://youtu.be/x2nVq9RbG54](https://youtu.be/x2nVq9RbG54)
 
-### 03 | GOTIFY notifiche PUSH sulla tua VPS self hosted!
+### 03 | GOTIFY notifiche PUSH sulla tua VPS self hosted
 [![vps-gotify](https://img.youtube.com/vi/0NYyYvoxkXE/mqdefault.jpg)](https://youtu.be/0NYyYvoxkXE "GOTIFY notifiche PUSH sulla tua VPS self hosted!")  
 [https://youtu.be/0NYyYvoxkXE](https://youtu.be/0NYyYvoxkXE)
+
+### 04 | WATCHTOWER mantenere AGGIORNATI i Container della tua VPS
+[![vps-watchtower](https://img.youtube.com/vi/mCxPtlHTKWY/mqdefault.jpg)](https://youtu.be/mCxPtlHTKWY "WATCHTOWER mantenere AGGIORNATI i Container della tua VPS!")  
+[https://youtu.be/mCxPtlHTKWY](https://youtu.be/mCxPtlHTKWY)
