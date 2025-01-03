@@ -1,0 +1,14 @@
+networks:
+  reverse-proxy:
+    external: true
+
+services:
+  app:
+    image: corentinth/it-tools:latest
+    container_name: it-tools
+    hostname: it-tools
+    restart: unless-stopped
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
+    networks:
+      - reverse-proxy

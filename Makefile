@@ -30,3 +30,6 @@ watchtower:
 # Glances
 glances:
 	$(call docker_rebuild,"glances","docker/glances")
+# IT Tools
+it-tools:
+	$(call docker_rebuild,"it-tools","docker/it-tools")
