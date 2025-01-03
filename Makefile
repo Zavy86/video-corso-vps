@@ -27,3 +27,6 @@ gotify:
 # WatchTower
 watchtower:
 	$(call docker_rebuild,"watchtower","docker/watchtower")
+# Glances
+glances:
+	$(call docker_rebuild,"glances","docker/glances")

@@ -1,0 +1,20 @@
+networks:
+  reverse-proxy:
+    external: true
+
+services:
+  app:
+    image: nicolargo/glances:latest
+    container_name: glances
+    hostname: glances
+    restart: unless-stopped
+    pid: host
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /etc/os-release:/etc/os-release:ro
+    networks:
+      - reverse-proxy
+    environment:
+      - "GLANCES_OPT=-w"
