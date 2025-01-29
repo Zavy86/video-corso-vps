@@ -23,3 +23,11 @@ Elenco dei video pubblicati:
 ### 04 | WATCHTOWER mantenere AGGIORNATI i Container della tua VPS
 [![vps-watchtower](https://img.youtube.com/vi/mCxPtlHTKWY/mqdefault.jpg)](https://youtu.be/mCxPtlHTKWY "WATCHTOWER mantenere AGGIORNATI i Container della tua VPS!")  
 [https://youtu.be/mCxPtlHTKWY](https://youtu.be/mCxPtlHTKWY)
+
+### 05 | GLANCES, una DASHBOARD per tenere sotto controllo la tua VPS
+[![vps-glances](https://img.youtube.com/vi/xPvNia5kxJw/mqdefault.jpg)](https://youtu.be/xPvNia5kxJw "GLANCES, una DASHBOARD per tenere sotto controllo la tua VPS!")  
+[https://youtu.be/xPvNia5kxJw](https://youtu.be/xPvNia5kxJw)
+
+### 06 | IT-TOOLS, una raccolta di UTILITIES da avere sulla tua VPS
+[![vps-it-tools](https://img.youtube.com/vi/uCQMHgjKVco/mqdefault.jpg)](https://youtu.be/uCQMHgjKVco "IT-TOOLS, una raccolta di UTILITIES da avere sulla tua VPS!")  
+[https://youtu.be/uCQMHgjKVco](https://youtu.be/uCQMHgjKVco)
