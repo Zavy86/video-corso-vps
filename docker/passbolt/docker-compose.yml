@@ -1,0 +1,66 @@
+networks:
+  passbolt_stack:
+    driver: bridge
+  reverse-proxy:
+    external: true
+
+volumes:
+  passbolt_db:
+    external: true
+  passbolt_gpg:
+    external: true
+  passbolt_jwt:
+    external: true
+
+services:
+  mariadb:
+    image: mariadb:10.11
+    restart: unless-stopped
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
+    environment:
+      MYSQL_RANDOM_ROOT_PASSWORD: "true"
+      MYSQL_DATABASE: "passbolt"
+      MYSQL_USER: "passbolt"
+      MYSQL_PASSWORD: "P4ssb0lt"
+    networks:
+      - passbolt_stack
+    volumes:
+      - passbolt_db:/var/lib/mysql
+  passbolt:
+    image: passbolt/passbolt:latest-ce-non-root
+    restart: unless-stopped
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
+    hostname: passbolt
+    container_name: passbolt
+    depends_on:
+      - mariadb
+    environment:
+      APP_FULL_BASE_URL: https://passbolt.zavy86.ip-dynamic.org
+      DATASOURCES_DEFAULT_HOST: "mariadb"
+      DATASOURCES_DEFAULT_USERNAME: "passbolt"
+      DATASOURCES_DEFAULT_PASSWORD: "P4ssb0lt"
+      DATASOURCES_DEFAULT_DATABASE: "passbolt"
+      EMAIL_DEFAULT_FROM_NAME: "Passbolt"
+      EMAIL_DEFAULT_FROM: "passbolt@example.com"
+      EMAIL_TRANSPORT_DEFAULT_HOST: "smtp.example.com"
+      EMAIL_TRANSPORT_DEFAULT_PORT: 587
+      EMAIL_TRANSPORT_DEFAULT_USERNAME: "username"
+      EMAIL_TRANSPORT_DEFAULT_PASSWORD: "password"
+      EMAIL_TRANSPORT_DEFAULT_TLS: ""
+    networks:
+      - passbolt_stack
+      - reverse-proxy
+    volumes:
+      - passbolt_gpg:/etc/passbolt/gpg
+      - passbolt_jwt:/etc/passbolt/jwt
+    command:
+      [
+        "/usr/bin/wait-for.sh",
+        "-t",
+        "0",
+        "mariadb:3306",
+        "--",
+        "/docker-entrypoint.sh",
+      ]

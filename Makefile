@@ -33,3 +33,9 @@ glances:
 # IT Tools
 it-tools:
 	$(call docker_rebuild,"it-tools","docker/it-tools")
+# Passbolt
+passbolt:
+	docker volume create passbolt_db
+	docker volume create passbolt_gpg
+	docker volume create passbolt_jwt
+	$(call docker_rebuild,"passbolt","docker/passbolt")
