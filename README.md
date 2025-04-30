@@ -20,7 +20,7 @@ Elenco dei video pubblicati:
 [![vps-gotify](https://img.youtube.com/vi/0NYyYvoxkXE/mqdefault.jpg)](https://youtu.be/0NYyYvoxkXE "GOTIFY notifiche PUSH sulla tua VPS self hosted!")  
 [https://youtu.be/0NYyYvoxkXE](https://youtu.be/0NYyYvoxkXE)
 
-### 04 | WATCHTOWER mantenere AGGIORNATI i Container della tua VPS
+### 04 | WATCHTOWER mantenere AGGIORNATI i tuoi Container 
 [![vps-watchtower](https://img.youtube.com/vi/mCxPtlHTKWY/mqdefault.jpg)](https://youtu.be/mCxPtlHTKWY "WATCHTOWER mantenere AGGIORNATI i Container della tua VPS!")  
 [https://youtu.be/mCxPtlHTKWY](https://youtu.be/mCxPtlHTKWY)
 
@@ -28,6 +28,10 @@ Elenco dei video pubblicati:
 [![vps-glances](https://img.youtube.com/vi/xPvNia5kxJw/mqdefault.jpg)](https://youtu.be/xPvNia5kxJw "GLANCES, una DASHBOARD per tenere sotto controllo la tua VPS!")  
 [https://youtu.be/xPvNia5kxJw](https://youtu.be/xPvNia5kxJw)
 
-### 06 | IT-TOOLS, una raccolta di UTILITIES da avere sulla tua VPS
+### 06 | IT-TOOLS, una raccolta di UTILITIES da avere sempre a portata di mano
 [![vps-it-tools](https://img.youtube.com/vi/uCQMHgjKVco/mqdefault.jpg)](https://youtu.be/uCQMHgjKVco "IT-TOOLS, una raccolta di UTILITIES da avere sulla tua VPS!")  
 [https://youtu.be/uCQMHgjKVco](https://youtu.be/uCQMHgjKVco)
+
+### 07 | PASSBOLT, un PASSWORD MANAGER da self-hostare
+[![vps-passbolt](https://img.youtube.com/vi/RiEHXjwHtQ8/mqdefault.jpg)](https://youtu.be/RiEHXjwHtQ8 "PASSBOLT, un PASSWORD MANAGER per la tua VPS!")  
+[https://youtu.be/RiEHXjwHtQ8](https://youtu.be/RiEHXjwHtQ8)
