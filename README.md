@@ -35,3 +35,7 @@ Elenco dei video pubblicati:
 ### 07 | PASSBOLT, un PASSWORD MANAGER da self-hostare
 [![vps-passbolt](https://img.youtube.com/vi/RiEHXjwHtQ8/mqdefault.jpg)](https://youtu.be/RiEHXjwHtQ8 "PASSBOLT, un PASSWORD MANAGER per la tua VPS!")  
 [https://youtu.be/RiEHXjwHtQ8](https://youtu.be/RiEHXjwHtQ8)
+
+### 08 | MAKEFILE Refactoring
+[![vps-makefile-refactoring](https://img.youtube.com/vi/XXX/mqdefault.jpg)](https://youtu.be/XXX "MAKEFILE Refactoring")  
+[https://youtu.be/XXX](https://youtu.be/XXX)
