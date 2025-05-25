@@ -13,7 +13,7 @@ endef
 # $(call docker_remove,"stack_name")
 define docker_remove
 	docker compose -p $(1) -f docker/$(1)/docker-compose.yml down && \
-    docker compose -p $(1) -f docker/$(1)/docker-compose.yml rm -f
+	docker compose -p $(1) -f docker/$(1)/docker-compose.yml rm -f
 endef
 # Initialization
 init:
@@ -50,3 +50,7 @@ passbolt:
 	docker volume create passbolt_gpg
 	docker volume create passbolt_jwt
 	$(call docker_rebuild,"passbolt")
+# Uptime Kuma
+uptime-kuma:
+	docker volume create uptime-kuma_data
+	$(call docker_rebuild,"uptime-kuma")

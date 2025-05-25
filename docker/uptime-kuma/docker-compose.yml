@@ -1,0 +1,20 @@
+networks:
+  reverse-proxy:
+    external: true
+
+volumes:
+  uptime-kuma_data:
+    external: true
+
+services:
+  app:
+    image: louislam/uptime-kuma:latest
+    container_name: uptime-kuma
+    hostname: uptime-kuma
+    restart: unless-stopped
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
+    volumes:
+      - uptime-kuma_data:/app/data
+    networks:
+      - reverse-proxy
