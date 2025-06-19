@@ -37,5 +37,5 @@ Elenco dei video pubblicati:
 [https://youtu.be/RiEHXjwHtQ8](https://youtu.be/RiEHXjwHtQ8)
 
 ### 08 | MAKEFILE Refactoring
-[![vps-makefile-refactoring](https://img.youtube.com/vi/XXX/mqdefault.jpg)](https://youtu.be/XXX "MAKEFILE Refactoring")  
-[https://youtu.be/XXX](https://youtu.be/XXX)
+[![vps-makefile-refactoring](https://img.youtube.com/vi/3DCwebdSz5Q/mqdefault.jpg)](https://youtu.be/3DCwebdSz5Q "MAKEFILE Refactoring")  
+[https://youtu.be/3DCwebdSz5Q](https://youtu.be/3DCwebdSz5Q)
