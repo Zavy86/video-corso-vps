@@ -39,3 +39,7 @@ Elenco dei video pubblicati:
 ### 08 | MAKEFILE Refactoring
 [![vps-makefile-refactoring](https://img.youtube.com/vi/3DCwebdSz5Q/mqdefault.jpg)](https://youtu.be/3DCwebdSz5Q "MAKEFILE Refactoring")  
 [https://youtu.be/3DCwebdSz5Q](https://youtu.be/3DCwebdSz5Q)
+
+### 09 | AMD to ARM Ampere MIGRATION
+[![vps-migrate-amd-arm](https://img.youtube.com/vi/kpXCqL6noOI/mqdefault.jpg)](https://youtu.be/kpXCqL6noOI "AMD to ARM Ampere MIGRATION")  
+[https://youtu.be/kpXCqL6noOI](https://youtu.be/kpXCqL6noOI)
