@@ -54,3 +54,7 @@ passbolt:
 uptime-kuma:
 	docker volume create uptime-kuma_data
 	$(call docker_rebuild,"uptime-kuma")
+# N8N
+n8n:
+	docker volume create n8n_data
+	$(call docker_rebuild,"n8n")

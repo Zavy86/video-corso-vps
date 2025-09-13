@@ -1,0 +1,30 @@
+volumes:
+  n8n_data:
+    external: true
+
+networks:
+  reverse-proxy:
+    external: true
+
+services:
+  app:
+    image: n8nio/n8n:stable
+    container_name: n8n
+    hostname: n8n
+    restart: unless-stopped
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
+    environment:
+      - NODE_ENV=production
+      - N8N_BASIC_AUTH_ACTIVE=true
+      - N8N_BASIC_AUTH_USER=admin
+      - N8N_BASIC_AUTH_PASSWORD=password
+      - N8N_HOST=https://n8n.zavy86.ip-dynamic.org
+      - N8N_PORT=5678
+      - N8N_PROTOCOL=http
+      - WEBHOOK_URL=https://n8n.zavy86.ip-dynamic.org/
+      - GENERIC_TIMEZONE=Europe/Rome
+    volumes:
+      - n8n_data:/home/node/.n8n
+    networks:
+      - reverse-proxy
