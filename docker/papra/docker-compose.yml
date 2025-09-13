@@ -1,0 +1,28 @@
+volumes:
+  papra_data:
+    external: true
+
+networks:
+  reverse-proxy:
+    external: true
+
+services:
+  app:
+    image: ghcr.io/papra-hq/papra:latest
+    container_name: papra
+    hostname: papra
+    user: 1001:1001
+    restart: unless-stopped
+  labels:
+    - "com.centurylinklabs.watchtower.enable=true"
+  environment:
+    - APP_BASE_URL=https://papra.zavy86.ip-dynamic.org
+    - CLIENT_BASE_URL=https://papra.zavy86.ip-dynamic.org
+    - SERVER_BASE_URL=https://papra.zavy86.ip-dynamic.org
+    - AUTH_SECRET=kJzxL7qCqsOUawlDTjWHxLrcyBJXVa9DZ7N3r02INNIkqcIK
+    - AUTH_IS_REGISTRATION_ENABLED=true
+    - DOCUMENTS_OCR_LANGUAGES=eng,ita
+  volumes:
+    - papra_data:/app/app-data
+  networks:
+    - reverse-proxy

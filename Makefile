@@ -58,3 +58,7 @@ uptime-kuma:
 n8n:
 	docker volume create n8n_data
 	$(call docker_rebuild,"n8n")
+# Papra
+papra:
+	docker volume create papra_data
+	$(call docker_rebuild,"papra")
