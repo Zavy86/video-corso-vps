@@ -1,10 +1,6 @@
 # Video Corso VPS
 Repository del Video Corso VPS Oracle
 
-## Branches
-Nel main branch trovi l'ultima versione allineata all'ultimo video.  
-Se vuoi vedere il repository come mostrato nei video seleziona il branch col numero relativo.
-
 ## Videos
 Elenco dei video pubblicati:
 
