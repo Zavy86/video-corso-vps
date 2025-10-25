@@ -39,3 +39,15 @@ Elenco dei video pubblicati:
 ### 09 | AMD to ARM Ampere MIGRATION
 [![vps-migrate-amd-arm](https://img.youtube.com/vi/kpXCqL6noOI/mqdefault.jpg)](https://youtu.be/kpXCqL6noOI "AMD to ARM Ampere MIGRATION")  
 [https://youtu.be/kpXCqL6noOI](https://youtu.be/kpXCqL6noOI)
+
+### 10 | N8N, AUTOMATIZZA tutto sulla tua VPS
+[![vps-n8n](https://img.youtube.com/vi/JUQwZfpu-hk/mqdefault.jpg)](https://youtu.be/JUQwZfpu-hk "N8N, AUTOMATIZZA tutto sulla tua VPS")  
+[https://youtu.be/JUQwZfpu-hk](https://youtu.be/JUQwZfpu-hk)
+
+### 11 | Uptime-Kuma, l'HEALTH CHECK per la tua VPS
+[![vps-uptime-kuma](https://img.youtube.com/vi/h1XOROhMulI/mqdefault.jpg)](https://youtu.be/h1XOROhMulI "Uptime-Kuma, l'HEALTH CHECK per la tua VPS")  
+[https://youtu.be/h1XOROhMulI](https://youtu.be/h1XOROhMulI)
+
+### 12 | Papra, DIGITALIZZA tutti i DOCUMENTI sulla tua VPS
+[![vps-papra](https://img.youtube.com/vi/MC5k3Q-HeUM/mqdefault.jpg)](https://youtu.be/MC5k3Q-HeUM "Papra, DIGITALIZZA tutti i DOCUMENTI sulla tua VPS")  
+[https://youtu.be/MC5k3Q-HeUM](https://youtu.be/MC5k3Q-HeUM)
