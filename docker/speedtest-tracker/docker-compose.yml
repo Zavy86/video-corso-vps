@@ -1,0 +1,30 @@
+volumes:
+  speedtest-tracker_data:
+    external: true
+
+networks:
+  reverse-proxy:
+    external: true
+
+services:
+  app:
+    image: lscr.io/linuxserver/speedtest-tracker:latest
+    container_name: speedtest-tracker
+    hostname: speedtest-tracker
+    restart: unless-stopped
+    labels:
+      - "com.centurylinklabs.watchtower.enable=true"
+    environment:
+      - PUID=1001
+      - PGID=1001
+      - DB_CONNECTION=sqlite
+      - APP_KEY=base64:I5gmXuqu8hU0TtmnmOniIgX3MpALTPnLhuv2o2hq5qo=
+      - APP_URL=https://speedtest.zavy86.ip-dynamic.org
+      - APP_TIMEZONE=Europe/Rome
+      - PUBLIC_DASHBOARD=true
+      - DEFAULT_CHART_RANGE=month
+      - SPEEDTEST_SCHEDULE=0 */6 * * *
+    volumes:
+      - speedtest-tracker_data:/config
+    networks:
+      - reverse-proxy

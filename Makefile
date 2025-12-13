@@ -62,3 +62,7 @@ n8n:
 papra:
 	docker volume create papra_data
 	$(call docker_rebuild,"papra")
+# SpeedTest Tracker
+speedtest-tracker:
+	docker volume create speedtest-tracker_data
+	$(call docker_rebuild,"speedtest-tracker")
