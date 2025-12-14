@@ -51,3 +51,7 @@ Elenco dei video pubblicati:
 ### 12 | Papra, DIGITALIZZA tutti i DOCUMENTI sulla tua VPS
 [![vps-papra](https://img.youtube.com/vi/MC5k3Q-HeUM/mqdefault.jpg)](https://youtu.be/MC5k3Q-HeUM "Papra, DIGITALIZZA tutti i DOCUMENTI sulla tua VPS")  
 [https://youtu.be/MC5k3Q-HeUM](https://youtu.be/MC5k3Q-HeUM)
+
+### 13 | SpeedTest Tracker, MONITORA la connessione della tua VPS
+[![vps-papra](https://img.youtube.com/vi/wrGa50li1tc/mqdefault.jpg)](https://youtu.be/wrGa50li1tc "SpeedTest Tracker, MONITORA la connessione della tua VPS")  
+[https://youtu.be/wrGa50li1tc](https://youtu.be/wrGa50li1tc)
